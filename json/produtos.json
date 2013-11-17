@@ -1,0 +1,75 @@
+{
+	"produtos" : [
+			{
+				"id"	: 1,
+				"categoria" : [1],
+				"nome" : "Batatas",
+				"unidades" : [1, 3]
+			},
+
+			{
+				"id"	: 2,
+				"categoria" : [1],
+				"nome" : "Couves",
+				"unidades" : [1, 3]
+			},
+
+			{
+				"id"	: 3,
+				"categoria" : [1],
+				"nome" : "Alface",
+				"unidades" : [1, 3]
+			},
+
+
+			{
+				"id"	: 4,
+				"categoria" : [3],
+				"nome" : "Bacalhau",
+				"unidades" : [1, 3]
+			},
+
+			{
+				"id"	: 5,
+				"categoria" : [3],
+				"nome" : "Robalo",
+				"unidades" : [1, 3]
+			},	
+	
+			{
+				"id"	: 6,
+				"categoria" : [3],
+				"nome" : "Pescada",
+				"unidades" : [1, 3]
+			},
+			
+			{
+				"id"	: 7,
+				"categoria" : [6],
+				"nome" : "Natas",
+				"unidades" : [2]
+			},
+			
+			{
+				"id"	: 8,
+				"categoria" : [6],
+				"nome" : "Leite",
+				"unidades" : [2]
+			},
+
+			{
+				"id"	: 9,
+				"categoria" : [2],
+				"nome" : "Strogonoff de Novilho",
+				"unidades" : [1, 3]
+			},
+
+			{
+				"id"	: 10,
+				"categoria" : [2],
+				"nome" : "Bife de Vitela",
+				"unidades" : [1, 3]
+			},
+	]
+
+}

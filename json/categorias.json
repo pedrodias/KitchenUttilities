@@ -1,0 +1,47 @@
+{
+	"categorias" : [
+			{
+				"id" : 1,
+				"nome" : "Mercearia",
+				"image" : "images/mercearia.jpg"
+			},
+
+			{
+				"id" : 2,
+				"nome" : "Talho",
+				"image" : "images/talho.jpg"
+			},
+
+			{
+				"id" : 3,
+				"nome" : "Peixe",
+				"image" : "images/peixe.jpg"
+			},
+
+			{
+				"id" : 4,
+				"nome" : "Bebidas",
+				"image" : "images/bebidas.jpg"
+			},
+
+			{
+				"id" : 5,
+				"nome" : "Charcutaria",
+				"image" : "images/charcutaria.jpg"
+			},
+
+			{
+				"id" : 6,
+				"nome" : "Lacticínios",
+				"image" : "images/lacticinios.jpg"
+			},
+
+			{
+				"id" : 7,
+				"nome" : "Outros",
+				"image" : "images/outros.jpg"
+			},
+
+	]
+
+}

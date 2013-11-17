@@ -1,0 +1,65 @@
+{
+	"receitas" : [ 
+		{
+			"nome": "Bacalhau com Natas",
+			"creator":-1,
+			"categoria":"peixe",
+			"produtos" : [
+				{"idProduto": 4,
+				 "quantidade" : 0.5,
+			    "unidade" : 3},
+				
+				{"idProduto": 7,
+				 "quantidade" : 0.5,
+			    "unidade" : 2},
+		
+				{"idProduto": 1,
+				 "quantidade" : 0.25,
+			    "unidade" : 3}
+			],
+			"procedimento" : "1.Meter o bacalhau de molho durante 24 horas<br/>2.Cozer o bacalhau e as batatas durante 15 min<br/>3.Meter tudo na panela ao lume"
+		},
+
+
+		{
+			"nome": "Strogonoff de Novilho",
+			"creator":-1,
+			"categoria":"carne",
+			"produtos" : [
+				{"idProduto": 9,
+				 "quantidade" : 0.5,
+			    "unidade" : 3},
+				
+				{"idProduto": 7,
+				 "quantidade" : 0.5,
+			    "unidade" : 2},
+		
+				{"idProduto": 1,
+				 "quantidade" : 0.25,
+			    "unidade" : 3}
+			],
+			"procedimento" : "1. Cozer as batatas<br/>2.Refogar a carne<br/>3.Adicionar as natas e deixar cozinhar<br/>4.Servir quente"
+		},
+
+
+		{
+			"nome": "Bife à casa",
+			"creator":1,
+			"categoria":"carne",
+			"produtos" : [
+				{"idProduto": 10,
+				 "quantidade" : 1,
+			    "unidade" : 1},
+				
+				{"idProduto": 7,
+				 "quantidade" : 0.5,
+			    "unidade" : 2},
+		
+				{"idProduto": 1,
+				 "quantidade" : 0.25,
+			    "unidade" : 3}
+			],
+			"procedimento" : "1.Fritar as batatas<br/>2.Fritar o bife com azeite e alho<br/>3.Juntar as natas ao bife<br/>4.Deixar as natas engrossar e servir com as batatas"
+		},
+	]
+}

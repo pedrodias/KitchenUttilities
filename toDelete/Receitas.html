@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title></title>
+  
+  
+  
+  <link rel="stylesheet" href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+  
+  <!-- Extra Codiqa features -->
+  <link rel="stylesheet" href="codiqa.ext.css">
+  
+  <!-- jQuery and jQuery Mobile -->
+  <script src="https://d10ajoocuyu32n.cloudfront.net/jquery-1.9.1.min.js"></script>
+  <script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+  <!-- Extra Codiqa features -->
+  <script src="https://d10ajoocuyu32n.cloudfront.net/codiqa.ext.js"></script>
+   
+</head>
+<body>
+<!-- Home -->
+<div data-role="page" id="page1">
+    <div id="header" data-theme="a" data-role="header">
+        <h3>
+            Header
+        </h3>
+        <div data-role="fieldcontain">
+            <input name="" id="search-receita" placeholder="Nome da Receita" value=""
+            type="search" data-mini="true">
+        </div>
+		<form>
+			<fieldset data-role="controlgroup" data-type="horizontal">
+			<label for="select-h-2a">Select A</label>
+			<select name="select-h-2a" id="select-h-2a">
+				<option value="#">Categorias</option>
+				<option value="#">Talho</option>
+				<option value="#">Peixe</option>
+				<option value="#">Bebidas</option>
+			</select>
+			<label for="select-h-2b">Select B</label>
+			<select name="select-h-2b" id="select-h-2b">
+				<option value="#">Public</option>
+				<option value="#">Private</option>
+			</select>
+			</fieldset>
+		</form>
+    </div>
+    <div data-role="content">
+    </div>
+    <div id="footer" data-theme="a" data-role="footer" data-position="fixed">
+        <h3>
+            Footer
+        </h3>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+$(document).ready(loadList);
+
+function loadList() {
+	var wishlist = window.location.search.substring(1);
+	$.getJSON( "json/wishlist.json", function( data ) {
+	  var items = '<fieldset data-role="controlgroup" data-type="vertical">';
+	  $.each( data, function( key, val ) {
+		if(key == wishlist) { //verificar family id
+			var product;
+			$.each(val["products"], function() {
+				product = products[this.produto];
+				if(product == null) {
+					alert("null:" + prod["produto"]);
+				}
+				else {
+					items +=
+					'<input id="checkbox'+this.produto+'" name="product'+this.produto+'" type="checkbox">'+
+					'<label for="checkbox'+this.produto+'">'+product["nome"]+'</label>';
+				}
+			});
+		}
+	  }); 
+	  items += '</fieldset>';	
+		alert(items);
+	  $("#productList").append(items);
+	});
+}
+

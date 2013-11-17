@@ -1,0 +1,13 @@
+var products = [];
+$(document).load(getProducts);
+
+function getProducts() {
+	var result = null;
+	$.getJSON( "json/produtos.json", function( data ) {
+		$.each( data, function( key, val ) {	
+			$.each(val, function(){
+				products[this.id] = this;
+			});
+		});
+	});
+}

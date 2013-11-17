@@ -1,0 +1,20 @@
+{
+	"wishlist1" : { 
+		"familyId" : 1,
+		"products" : 
+		[{ "produto" : 1,
+			"quantidade" : 1,
+			  "unidade" : 1,
+			  "idFamilia" : 1,
+			  "user" : 1
+			},
+
+			{ "produto" : 2,
+			  "quantidade" : 5,
+			  "unidade" : 3,
+			  "idFamilia" : 1,
+			  "user" : 2
+			}
+		]
+	}
+}

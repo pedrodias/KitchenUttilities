@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title></title>
+
+    <link rel="stylesheet" href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+
+    <!-- jQuery and jQuery Mobile -->
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+    <!-- Extra Codiqa features -->
+
+
+    <!-- Extra Codiqa features -->
+    <link rel="stylesheet" href="css/general.css">
+
+    <!-- Extra js-->
+    <script src="js/carregar_produtos.js"></script>
+    <script src="js/wishlist.js"></script>
+
+
+</head>
+<body>
+<!-- Home -->
+<div data-role="page" id="page1">
+    <div id="header" data-theme="a" data-role="header">
+        <a class="menu-button, ui-btn-left" data-role="button" href="" data-icon="bars" data-iconpos="left"
+                >
+        </a>
+
+        <h2 id="pagename">
+            Kitchen Utilities
+        </h2>
+    </div>
+    <div data-role="content">
+        <div class="kt-ui-grid-b">
+            <div class="ui-block-a">
+                <a href="" data-transition="slidedown">
+                    <div style="width: 100%; height: 200px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;"
+                         class="icon-grid-menu">
+                        <img src="http://codiqa.com/static/images/v2/image.png"
+                             alt="image" style="position: absolute;">
+                    </div>
+                    <div class="link-block">
+                        <p>
+                            Listas
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="ui-block-b">
+                <a href="#page-receitas" data-transition="slidedown">
+                    <div style="width: 100%; height: 200px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;"
+                         class="icon-grid-menu">
+                        <img src="http://codiqa.com/static/images/v2/image.png" alt="image" style="position: absolute;">
+                    </div>
+                    <div class="link-block">
+                        <p>
+                            Receitas
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="ui-block-c">
+                <a href="" data-transition="slidedown">
+                    <div style="width: 100%; height: 200px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;"
+                         class="icon-grid-menu">
+                        <img src="http://codiqa.com/static/images/v2/image.png"
+                             alt="image" style="position: absolute;">
+                    </div>
+                    <div class="link-block">
+                        <p>
+                            Ingredientes
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="ui-block-a">
+                <a href="#page-wish" data-transition="slidedown">
+                    <div style="width: 100%; height: 200px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;"
+                         class="icon-grid-menu">
+                        <img src="content/103.png" alt="image" style="position: absolute;">
+                    </div>
+                    <div class="link-block">
+                        <p>
+                            Wishlists
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="ui-block-b">
+                <a href="" data-transition="slidedown">
+                    <div style="width: 100%; height: 200px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;"
+                         class="icon-grid-menu">
+                        <img src="http://codiqa.com/static/images/v2/image.png" alt="image" style="position: absolute;">
+                    </div>
+                    <div class="link-block">
+                        <p>
+                            Login
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="ui-block-c">
+                <a href="" data-transition="slidedown">
+                    <div style="width: 100%; height: 200px; position: relative; background-color: #fbfbfb; border: 1px solid #b8b8b8;"
+                         class="icon-grid-menu">
+                        <img src="http://codiqa.com/static/images/v2/image.png" alt="image" style="position: absolute;">
+                    </div>
+                    <div class="link-block">
+                        <p>
+                            Soon...
+                        </p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="footer" data-theme="a" data-role="footer" data-position="fixed">
+        <h3>
+            Footer
+        </h3>
+    </div>
+</div>
+
+<!--Wishlist-->
+
+<div data-role="page" id="page-wish">
+    <div data-theme="a" data-role="header">
+        <a data-role="button" href="" data-icon="bars" data-iconpos="left"
+           class="ui-btn-left">
+        </a>
+        <a class="menu-button, ui-btn-right" data-role="button" href="" data-icon="plus" data-iconpos="left">
+        </a>
+
+        <h3>
+            Wishlist
+        </h3>
+    </div>
+    <div data-role="content">
+        <div id="productList" data-role="fieldcontain">
+        </div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <h3>
+            Footer
+        </h3>
+        <a data-role="button" data-transition="slideup" href="#page1"
+           data-icon="arrow-l" data-iconpos="left" class="ui-btn-left">
+            Back
+        </a>
+    </div>
+</div>
+
+<!--Receitas html-->
+
+<div data-role="page" id="page-receitas">
+    <div data-theme="a" data-role="header">
+        <a data-role="button" href="" data-icon="bars" data-iconpos="left"
+           class="ui-btn-left">
+        </a>
+
+        <h3>
+            Receitas
+        </h3>
+
+        <div data-role="fieldcontain">
+            <input name="" id="search-receita" placeholder="Nome da Receita" value=""
+                   type="search" data-mini="true">
+        </div>
+        <form>
+            <fieldset data-role="controlgroup" data-type="horizontal">
+                <label for="select-h-2a">Select A</label>
+                <select name="select-h-2a" id="select-h-2a">
+                    <option value="#">Categorias</option>
+                    <option value="#">Talho</option>
+                    <option value="#">Peixe</option>
+                    <option value="#">Bebidas</option>
+                </select>
+                <label for="select-h-2b">Select B</label>
+                <select name="select-h-2b" id="select-h-2b">
+                    <option value="#">Public</option>
+                    <option value="#">Private</option>
+                </select>
+            </fieldset>
+        </form>
+    </div>
+    <div data-role="content">
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <h3>
+            Footer
+        </h3>
+        <a id="button-back" data-role="button" data-transition="slideup" href="#page1"
+           data-icon="arrow-l" data-iconpos="left" class="ui-btn-left">
+            Back
+        </a>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+	"users" : [
+		{	"id" : 1,
+			"username" : "pedro",
+			"familyId" : 1,
+			"password" : "pedro123"				
+		},	
+		
+		{	"id" : 2,
+			"username" : "paulo",
+			"familyId" : 1,
+			"password" : "paulo123"				
+		},	
+
+		{	"id" : 3,
+			"username" : "eduardo",
+			"familyId" : 1,
+			"password" : "eduardo123"				
+		},
+
+		{	"id" : 4,
+			"username" : "pedro2",
+			"familyId" : 2,
+			"password" : "pedro123"				
+		},	
+	
+		{	"id" : 5,
+			"username" : "paulo2",
+			"familyId" : 2,
+			"password" : "paulo123"				
+		},		
+	]
+}

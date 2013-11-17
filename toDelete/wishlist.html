@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <title></title>
+  
+  
+  
+  <link rel="stylesheet" href="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.css">
+  
+  <!-- Extra Codiqa features -->
+  <link rel="stylesheet" href="codiqa.ext.css">
+
+  <!-- jQuery and jQuery Mobile -->
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <script src="https://d10ajoocuyu32n.cloudfront.net/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+
+
+  <!-- Extra Codiqa features -->
+  <script src="js/carregar_produtos.js"></script>
+  <script src="js/wishlist.js"></script>
+   
+</head>
+<body>
+<!-- Home -->
+<div data-role="page" id="page2">
+    <div data-theme="a" data-role="header">
+        <a data-role="button" href="#page1" data-icon="plus" data-iconpos="left"
+        class="ui-btn-right">
+        </a>
+        <a data-role="button" href="#page1" data-icon="bars" data-iconpos="left"
+        class="ui-btn-left">
+        </a>
+        <h3>
+            Wishlist
+        </h3>
+    </div>
+    <div data-role="content">
+        <div id="productList" data-role="fieldcontain">
+        </div>
+    </div>
+    <div data-theme="a" data-role="footer" data-position="fixed">
+        <h3>
+            Footer
+        </h3>
+		<a id="button-back" data-role="button" data-rel="back" data-transition="slideup" href="#page1"
+        data-icon="arrow-l" data-iconpos="left" class="ui-btn-left">
+            Back
+        </a>
+    </div>
+</div>
+</body>
+</html>
